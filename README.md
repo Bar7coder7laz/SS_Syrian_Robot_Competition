@@ -14,19 +14,19 @@ Differential gears play a crucial role in automotive engineering. They allow the
 1. **Open Differential**: The most common type, found in many non-performance vehicles. It is simple and cost-effective but can transfer torque to a wheel without traction, causing it to spin uselessly.
 
    <p align="center">
-     <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Differential-Image-1.webp" width="300" height="200">
+     <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Differential-Image-1.webp" width="800" height="500">
    </p>
 
 2. **Locking Differential**: Often used in off-road vehicles, this type can lock the wheels to spin at the same speed, providing better traction on uneven surfaces.
 
    <p align="center">
-     <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/locking%20diff.jpg" width="300" height="200">
+     <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/locking%20diff.jpg" width="800" height="500">
    </p>
 
 3. **Limited-Slip Differential (LSD)**: Combines features of both open and locking differentials, allowing wheels to spin at different speeds but can transfer more torque to the wheel with better traction.
 
    <p align="center">
-     <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/kmp-lsd-with-names-01.png" width="300" height="200">
+     <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/kmp-lsd-with-names-01.png" width="800" height="500">
    </p>
 
 ### Benefits of Differential Gears
@@ -51,26 +51,26 @@ Direct-Acting Steering mechanisms provide precise and responsive control, essent
 In our robot we used differential gears as shown in the following photo:
 
 <p align="center">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/diff%20lego%20pars.webp" width="300" height="200">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/diff%20lego%20pars.webp" width="800" height="500">
 </p>
 
 ### Direct-Acting Steering depending on Picar-X Kit
 The steps of assembling the steering mechanism is shown below step-by-step:
 
 <p align="center">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/1.png" width="300" height="200">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/1.png" width="800" height="500">
 </p>
 
 <p align="center">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/2.png" width="300" height="200">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/2.png" width="800" height="500">
 </p>
 
 <p align="center">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/3.png" width="300" height="200">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/3.png" width="800" height="500">
 </p>
 
 <p align="center">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/4.png" width="300" height="200">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/4.png" width="800" height="500">
 </p>
 
 Incorporating differential gears and direct-acting steering mechanisms in self-driving cars is essential for ensuring smooth turns, improved traction, precise control, and overall vehicle stability. Understanding these components helps appreciate the technology that contributes to safer and more efficient driving experiences.
