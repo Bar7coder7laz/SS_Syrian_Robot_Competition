@@ -2,6 +2,7 @@ Engineering materials
 ====
 
 This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+![Open Differential Diagram](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Differential-Image-1.webp)
 
 ## Content
 
