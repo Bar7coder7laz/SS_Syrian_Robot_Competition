@@ -23,7 +23,7 @@ Differential gears play a crucial role in automotive engineering. They allow the
 
    ![Limited-Slip Differential Types](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/kmp-lsd-with-names-01.png)
 
-## Benefits of Differential Gears
+### Benefits of Differential Gears
 
 - **Improved Handling**: Differentials enhance vehicle handling, especially around corners, by allowing wheels to rotate at appropriate speeds.
 - **Increased Traction**: Locking and limited-slip differentials provide better traction on slippery or uneven surfaces.
@@ -39,7 +39,21 @@ Direct-Acting Steering mechanisms provide precise and responsive control, essent
 - **Increased Safety**: By reducing the potential for mechanical failure, direct-acting systems improve the overall safety of the vehicle.
 - **Better Responsiveness**: The immediate translation of steering input to wheel action ensures a quicker response to driving conditions.
 
-## Fusion Between Differential Gears and Direct-acting Steering Mechanisms
+## Fusion Between Differential Gears and Direct-acting Steering Mechanisms in Our robot
+
+### Differential Gears Using Lego Parts
+In our robot we used differntial gears as shown in the following photo:
+![Differential Gears Using Lego Parts](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/diff%20lego%20pars.webp)
+
+### Direct-Acting Steering depending on Picar-X Kit
+The steps of assembling the steering mechanism is shown below step-by-step:
+![Step 1](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/1.png)
+
+![Step 2](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/2.png)
+
+![Step 3](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/3.png)
+
+![Step 4](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/4.png)
 
 Incorporating differential gears and direct-acting steering mechanisms in self-driving cars is essential for ensuring smooth turns, improved traction, precise control, and overall vehicle stability. Understanding these components helps appreciate the technology that contributes to safer and more efficient driving experiences.
 
