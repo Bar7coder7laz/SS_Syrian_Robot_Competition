@@ -1,8 +1,48 @@
 Engineering materials
 ====
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
-![Open Differential Diagram](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Differential-Image-1.webp)
+# Robot Mechanism
+
+In self-driving cars, the most important aspect is their mechanical mechanisms, which ensure smooth and safe operation. Our design incorporates differential gears for the Rear-Wheel Drive (RWD) system, providing the necessary balance and control during turns. For steering, we utilize a Direct-Acting Steering mechanism, which offers precise control and reliability.
+
+## Differential Gears
+
+Differential gears play a crucial role in automotive engineering. They allow the wheels on a vehicle to rotate at different speeds, particularly when the vehicle is turning. This functionality is vital because the inner wheels travel a shorter distance compared to the outer wheels during a turn.
+
+### Types of Differentials
+
+1. **Open Differential**: The most common type, found in many non-performance vehicles. It is simple and cost-effective but can transfer torque to a wheel without traction, causing it to spin uselessly.
+
+   ![Open Differential Diagram](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Differential-Image-1.webp)
+
+2. **Locking Differential**: Often used in off-road vehicles, this type can lock the wheels to spin at the same speed, providing better traction on uneven surfaces.
+
+   ![Locking Differential in Action](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/locking%20diff.jpg)
+
+3. **Limited-Slip Differential (LSD)**: Combines features of both open and locking differentials, allowing wheels to spin at different speeds but can transfer more torque to the wheel with better traction.
+
+   ![Limited-Slip Differential Types](https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/kmp-lsd-with-names-01.png)
+
+## Benefits of Differential Gears
+
+- **Improved Handling**: Differentials enhance vehicle handling, especially around corners, by allowing wheels to rotate at appropriate speeds.
+- **Increased Traction**: Locking and limited-slip differentials provide better traction on slippery or uneven surfaces.
+- **Enhanced Stability**: They improve stability by distributing power evenly to the wheels, preventing loss of control.
+
+## Direct-Acting Steering
+
+Direct-Acting Steering mechanisms provide precise and responsive control, essential for the safety and efficiency of self-driving cars. This system translates the driver's or automated system's input directly into wheel movement without the delay and complexity of traditional steering systems.
+
+### Advantages of Direct-Acting Steering
+
+- **Enhanced Precision**: Direct control over the wheel movement allows for more accurate and reliable steering.
+- **Increased Safety**: By reducing the potential for mechanical failure, direct-acting systems improve the overall safety of the vehicle.
+- **Better Responsiveness**: The immediate translation of steering input to wheel action ensures a quicker response to driving conditions.
+
+## Fusion Between Differential Gears and Direct-acting Steering Mechanisms
+
+Incorporating differential gears and direct-acting steering mechanisms in self-driving cars is essential for ensuring smooth turns, improved traction, precise control, and overall vehicle stability. Understanding these components helps appreciate the technology that contributes to safer and more efficient driving experiences.
+
 
 ## Content
 
