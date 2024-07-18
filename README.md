@@ -156,17 +156,17 @@ Once the objectives are defined design the mechanical system of the robot includ
 
 ### Choosing the Electronic Components
 
-The selection process for the electronic components that will govern the robot's movements and behaviors has been conducted meticulously. These components include the microcontroller- an Arduino Mega board. Sensory devices have also been chosen encompassing Ultrasonic sensors and a mpu6050 (gyroscope and acceleration sensor) which will provide the robot with the ability to perceive its environment. Actuators including a DC Motor and a Servo Motor have been chosen to facilitate the physical actions of the robot. The power supply will be ensured by a Li-poly RC 12 V. Additional electrical components such as the driver circuit and two step down voltage regulators (Lm2596) have also been selected to augment the robot's functionality. These components collectively will provide the necessary control over the robot's movements and actions.
+The selection process for the electronic components that will govern the robot's movements and behaviors has been conducted meticulously. These components include the microcontroller- an Arduino Mega board, and the microprocessor- a RaspberryPi 4B. Sensory devices have also been chosen encompassing Ultrasonic sensors, mpu6050 (gyroscope and acceleration sensor), and a RaspberryPi Camera 1.3 module (5 MegaPixels) which will provide the robot with the ability to perceive its environment. Actuators including a DC Motor and a Servo Motor have been chosen to facilitate the physical actions of the robot. The power supply will be ensured by one Li-poly RC 12 V and two 18650 li-ion (3.7 V) batteries. Additional electrical components such as the driver circuit and two step down voltage regulators (Lm2596) have also been selected to augment the robot's functionality. These components collectively will provide the necessary control over the robot's movements and actions.
 
 ## Power and Sense Management
 
 ### Power Supply
 
-In our design, we utilized one battery which is responsible for powering the whole robot’s parts.
+In our design, we utilized two 18650 li-ion (3.7 V) batteries to provide power for the RaspberryPi (since we have serial communication, RaspberryPi supplies Arduino). Additionally, the Li-poly RC 12 V is responsible to power all the other electronic components.
 
 ### Sensors
 
-We integrated a total of seven ultrasonic sensors (HC-SR04) with three positioned on each side of the robot and one on the front section of the robot. Additionally, we used a gyroscope and acceleration sensors (mpu 6050). 
+In addition to using a gyroscope, acceleration sensors (mpu 6050), and a camera to detect pillars, we integrated eight ultrasonic sensors (HC-SR04), three of which were placed on each side of the robot, one on the front side, and one on the left back side. Two of the sensors on each side have a unique feature in that two of them are parallel to the walls, but the middle one has a drifting angle of 35 degrees, a number that was carefully studied because it adds a great deal of flexibility to the obstacles management algorithm.
 
 ## Open Challenge Strategy
 
@@ -277,3 +277,5 @@ Where:
 ### Stopping the Robot in the Finish Section
 
 After completing three laps the robot must stop in the finish section. To do this we used a counter that counts the number of turn times. The value of this counter is increased after completing each turn. When its value is equal to 12 the three laps will be completed. The finish section is recognized depending on the value of the front ultrasonic sensor. The robot would stop when the value of the front distance is less than a specific threshold.
+
+## Obstacle Managment Strategy
