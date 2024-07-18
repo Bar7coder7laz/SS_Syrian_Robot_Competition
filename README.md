@@ -146,8 +146,13 @@ The first step is to thoroughly read and understand the competition rules and re
 Based on the competition requirements we determined the objectives of the robot such as the tasks it needs to perform the environment it will operate in and the constraints it needs to adhere to.
 
 ### Designing the Robot's Mechanical System
+_###RWD Mechannism_
 
-Once the objectives are defined design the mechanical system of the robot including the wheels motors and any other mechanical components needed to achieve the objectives. As a steering mechanism, we chose the Ackermann steering mechanism which is a popular choice for small self-driving cars because it provides accurate and precise control over steering while also being relatively simple to implement. This mechanism uses a linkage system to allow the front wheels to turn at different angles with the inner wheel turning at a sharper angle than the outer wheel during a turn. This design allows the car to have a small turning radius which is important for navigating tight spaces and making sharp turns. Additionally, the Ackermann mechanism provides a stable and predictable steering response which is crucial for self-driving cars that need to maintain precise control over their movements. Also, the RWD is explained in the Vehicle Main Body section in detail.
+It was previousely explained in details in this repository.
+
+_###Steering Mechanism_
+
+Once the objectives are defined design the mechanical system of the robot including the wheels motors and any other mechanical components needed to achieve the objectives. As a steering mechanism, we chose the Direct-Acting steering mechanism which is a popular choice for small self-driving cars because it provides accurate and precise control over steering while also being relatively simple to implement. This mechanism uses a linkage system to allow the front wheels to turn at the same angles which is better when dealing with small self-driving cars than Ackermann steering for example. This design allows the car to have a small turning radius which is important for navigating tight spaces and making sharp turns. Additionally, it provides a stable and predictable steering response which is crucial for self-driving cars that need to maintain precise control over their movements.
 
 ### Choosing the Electronic Components
 
