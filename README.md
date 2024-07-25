@@ -295,9 +295,9 @@ At the beginning of the round, the camera will take a photo to determine whether
 
 To get an accurate turn angle, we used the middle left and the middle right ultrasonic sensors. If the robot needs to turn left to pass the green pillar: first, the values measured by the front left and back left sensors would be less than the value measured by the middle left one. Ending the turn would be appropriate when the value of the middle left distance is the least. Therefore, the robot will turn until the value of the middle-left sensor is the least. The following figures illustrate the robot's position before and after the turn:
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src=https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/before_turn.jpg alt="Robot position before turn" style="width: 35%; margin-right: 10%;">
-  <img src=https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/after_turn.jpg alt="Robot position after turn" style="width: 35%;">
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/before_turn.jpg" alt="Robot position before turn" style="width: 35%; margin-right: 5%;">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/after_turn.jpg" alt="Robot position after turn" style="width: 35%; margin-left: 5%;">
 </div>
 
 - After turning, the robot will move forward with the PID algorithm until the distance measured by the middle sensor is less than a specific threshold. This threshold is determined by calibration. Then the robot will turn left until the value read by the back-left sensor is less than the two other left sensors' values, making the robot straight. After that, the robot will move forward until it passes the pillar completely.
