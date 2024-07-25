@@ -280,4 +280,34 @@ Where:
 
 After completing three laps the robot must stop in the finish section. To do this we used a counter that counts the number of turn times. The value of this counter is increased after completing each turn. When its value is equal to 12 the three laps will be completed. The finish section is recognized depending on the value of the front ultrasonic sensor. The robot would stop when the value of the front distance is less than a specific threshold.
 
-## Obstacle Managment Strategy
+# Obstacle Challenge Algorithm
+
+In the obstacle challenge, the vehicle must complete three (3) laps on the track with randomly placed green and red traffic signs. The traffic signs indicate the side of the lane the vehicle must follow. The traffic sign to keep to the right side of the lane is a red pillar. The traffic sign to keep to the left side of the lane is a green pillar. The continuation of the vehicle to the third round is indicated by the last traffic sign of the second round. A green traffic sign indicates that the robot must go ahead and continue the third round in the same direction. A red traffic sign indicates that the vehicle must turn around and complete the third round in the opposite direction. The vehicle should not move any of the traffic signs. After the robot completes the three rounds, it has to find the parking lot and perform parallel parking.
+
+In our algorithm, there are two ways to pass the pillars depending on the pillars' and the robot's positions.
+
+## Passing Pillars that are at the End of the Section
+
+At the beginning of the round, the camera will take a photo to determine whether there is a pillar at the end of the straightforward section and what its color is. When the pillars are at the end of the straightforward section, the robot may be at the beginning or in the middle of this section. In this case, the robot may move forward immediately to pass the pillar or it needs to turn before. This depends on the robot's position and the pillar’s color.
+
+- If the robot is close to the left wall and the pillar is green or the robot is close to the right wall and the pillar is red, the robot can move immediately to pass the pillar without turning. The distance from the wall that identifies whether the robot needs a turn or not is identified with testing and calibration.
+- If the pillar is red and the robot is far from the right wall, the robot needs to turn right about 35 degrees, move forward until it is close to the right wall, then turn left to return straight. Then it can move forward to pass the pillar. The same movements will be done if the pillar is green and the robot is far from the left wall but with reversed turn directions.
+
+To get an accurate turn angle, we used the middle left and the middle right ultrasonic sensors. If the robot needs to turn left to pass the green pillar: first, the values measured by the front left and back left sensors would be less than the value measured by the middle left one. Ending the turn would be appropriate when the value of the middle left distance is the least. Therefore, the robot will turn until the value of the middle-left sensor is the least. The following figures illustrate the robot's position before and after the turn:
+
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10%;">
+  <img src="path/to/before_turn.jpg" alt="Robot position before turn" style="width: 35%; margin-right: 10%;">
+  <img src="path/to/after_turn.jpg" alt="Robot position after turn" style="width: 35%;">
+</div>
+
+- After turning, the robot will move forward with the PID algorithm until the distance measured by the middle sensor is less than a specific threshold. This threshold is determined by calibration. Then the robot will turn left until the value read by the back-left sensor is less than the two other left sensors' values, making the robot straight. After that, the robot will move forward until it passes the pillar completely.
+- Passing the red pillar is done similarly with reversed turn directions.
+
+## Passing Pillars that are at the Beginning and in the Middle of the Section
+
+After the robot passes the pillar that is at the end of the straightforward section, it will stop and move the camera’s servo to take photos and detect whether there are pillars at the beginning and the middle of the next straightforward section and what their colors are.
+
+- If the detected pillar is red and the direction is counterclockwise or the detected pillar is green and the direction is clockwise, the robot will move forward with the PID algorithm until the front ultrasonic sensor measures a distance less than a specific threshold. Its value is determined by calibration. Then the robot will perform a 90-degree turn to the left or right depending on the direction of movement.
+- If the detected pillar is green and the direction is counterclockwise or the detected pillar is red and the direction is clockwise, the robot will move backward with the PID algorithm until the front ultrasonic sensor measures a distance greater than a specific threshold. Its value is determined by calibration. Then the robot will perform a 90-degree turn to the left or right depending on the direction of movement.
+
+After the robot performs the turn, it will move forward with the PID algorithm until the back ultrasonic sensor measures a distance greater than a specific threshold. So the pillar would be passed. Then the robot will stop and take a photo to determine whether there is a pillar at the end of the straightforward section and what its color is. The same steps will be repeated to pass the pillars at the end of the section and then at the beginning and the middle of the next straightforward section.
