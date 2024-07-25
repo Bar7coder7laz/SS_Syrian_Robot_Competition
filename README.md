@@ -311,3 +311,15 @@ After the robot passes the pillar that is at the end of the straightforward sect
 - If the detected pillar is green and the direction is counterclockwise or the detected pillar is red and the direction is clockwise, the robot will move backward with the PID algorithm until the front ultrasonic sensor measures a distance greater than a specific threshold. Its value is determined by calibration. Then the robot will perform a 90-degree turn to the left or right depending on the direction of movement.
 
 After the robot performs the turn, it will move forward with the PID algorithm until the back ultrasonic sensor measures a distance greater than a specific threshold. So the pillar would be passed. Then the robot will stop and take a photo to determine whether there is a pillar at the end of the straightforward section and what its color is. The same steps will be repeated to pass the pillars at the end of the section and then at the beginning and the middle of the next straightforward section.
+
+## Parking Lot 
+
+### Avoiding the Parking Lot
+
+When the camera detects a parking lot (by detecting the magenta color), the robot adjusts its threshold for passing the red pillar (increasing the middle ultrasonic distance threshold) so that the robot keeps away from the outer wall. Passing the green pillar in the parking lot section will remain the same (as there is no parking lot).
+
+### Parking in the Parking Lot
+
+After completing the three official laps, the robot can avoid pillars in any desired direction regardless of the pillar's color (passing without moving the pillars), so the robot keeps moving forward near the inner wall and turning (in other words, the robot assumes that all the pillars become green in its search for the parking lot). When the robot detects the parking lot after the three official laps, it keeps moving till the contour size of the magenta color becomes under a threshold (when the parking wall becomes close) and the back left or back right ultrasonic sensors (depending on the movement direction) detects a close object (closer than the outer wall), the robot turns 90 degrees and enters the parking lot partially. 
+
+**Note:** Due to the lack of time, we are still working on the parking lot so that we can achieve the full parking case.
