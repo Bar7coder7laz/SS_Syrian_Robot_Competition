@@ -296,8 +296,8 @@ At the beginning of the round, the camera will take a photo to determine whether
 To get an accurate turn angle, we used the middle left and the middle right ultrasonic sensors. If the robot needs to turn left to pass the green pillar: first, the values measured by the front left and back left sensors would be less than the value measured by the middle left one. Ending the turn would be appropriate when the value of the middle left distance is the least. Therefore, the robot will turn until the value of the middle-left sensor is the least. The following figures illustrate the robot's position before and after the turn:
 
 <p align="center">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/before_turn.jpg" alt="Robot position before turn" width="45%" height="auto">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/after_turn.jpg" alt="Robot position after turn" width="45%" height="auto">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/before_turn.jpg" alt="Robot position before turn" width="45%" height="300px">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/after_turn.jpg" alt="Robot position after turn" width="45%" height="300px">
 </p>
 
 
