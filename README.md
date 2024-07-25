@@ -101,7 +101,7 @@ Due to space constraints, we also added two extra plexi plates to the primary ch
 The following photos show a comparasion between our robot and the Picar-X Robot. This comparasion is to show how much effort did we put to the design to satisfy our algorithm requirments and the competition requirments:
 
 <p align="center">
-  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Our Robot.jpg" alt="Robot position before turn" width="45%" height="500px">
+  <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Our Robot.jpg" alt="Robot position before turn" width="50%" height="500px">
   <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/picar-x.webp" alt="Robot position after turn" width="45%" height="500px">
 </p>
 
