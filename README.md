@@ -1,5 +1,6 @@
 Scud Storm Team Report for WRO Future Engineers Category (2024)
 ====
+This repository represents the Scud Storm team's work for the WRO Future Engineers Category competition in 2024. It includes all the necessary documentation, code, models, and other materials used in the design, construction, and programming of our self-driving robot. Our focus has been on creating a robust and efficient vehicle capable of navigating a track with obstacles, adhering to competition rules, and demonstrating advanced engineering skills.
 
 # Content
 
