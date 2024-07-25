@@ -14,15 +14,15 @@ Engineering Materials
 
 # Robot Mechanism
 
-In self-driving cars, the most important aspect is their mechanical mechanisms, which ensure smooth and safe operation. Our design incorporates differential gears for the Rear-Wheel Drive (RWD) system, providing the necessary balance and control during turns. For steering, we utilize a Direct-Acting Steering mechanism, which offers precise control and reliability.
+In self-driving cars, the most important aspect is their mechanical mechanisms, which ensure smooth and safe operation. Our design incorporates differential gears for the Rear-Wheel Drive (RWD) system, providing balance and control during turns. For steering, we utilize a Direct-Acting Steering mechanism, which offers precise control and reliability.
 
 ## Differential Gears
 
-Differential gears play a crucial role in automotive engineering. They allow the wheels on a vehicle to rotate at different speeds, particularly when the vehicle is turning. This functionality is vital because the inner wheels travel a shorter distance compared to the outer wheels during a turn.
+Differential gears play a crucial role in automotive engineering. They allow the wheels on a vehicle to rotate at different speeds, particularly when the car is turning. This functionality is vital because the inner wheels travel a shorter distance than the outer wheels during a turn.
 
 ### Types of Differentials
 
-1. **Open Differential**: The most common type, found in many non-performance vehicles. It is simple and cost-effective but can transfer torque to a wheel without traction, causing it to spin uselessly.
+1. **Open Differential**: is the most common type, found in many non-performance vehicles. It is simple and cost-effective but can transfer torque to a wheel without traction, causing it to spin uselessly.
 
    <p align="center">
      <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/Differential-Image-1.webp" width="600" height="400">
@@ -52,14 +52,14 @@ Direct-Acting Steering mechanisms provide precise and responsive control, essent
 
 ### Advantages of Direct-Acting Steering
 
-- **Enhanced Precision**: Direct control over the wheel movement allows for more accurate and reliable steering.
-- **Increased Safety**: By reducing the potential for mechanical failure, direct-acting systems improve the overall safety of the vehicle.
+- **Enhanced Precision**: Direct control over the wheels' movement allows for more accurate and reliable steering.
+- **Increased Safety**: By reducing the potential for mechanical failure, direct-acting systems improve the vehicle's overall safety.
 - **Better Responsiveness**: The immediate translation of steering input to wheel action ensures a quicker response to driving conditions.
 
 ## Fusion Between Differential Gears and Direct-acting Steering Mechanisms in Our Robot
 
 ### Differential Gears Using Lego Parts
-In our robot we used differential gears as shown in the following photo:
+In our robot, we used differential gears, as shown in the following photo:
 
 <p align="center">
   <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/diff%20lego%20pars.webp" width="600" height="400">
@@ -84,11 +84,12 @@ The steps of assembling the steering mechanism are shown below step-by-step:
   <img src="https://github.com/Bar7coder7laz/SS_Syrian_Robot_Competition/blob/main/other/images/4.png" width="600" height="400">
 </p>
 
-Incorporating differential gears and direct-acting steering mechanisms in self-driving cars is essential for ensuring smooth turns, improved traction, precise control, and overall vehicle stability. Understanding these components helps appreciate the technology that contributes to safer and more efficient driving experiences.
+Incorporating differential gears and direct-acting steering mechanisms in self-driving cars is essential for ensuring smooth turns, improved traction, precise control, and overall vehicle stability. Understanding these components helps us appreciate the technology that contributes to safer and more efficient driving experiences.
 
 ## Vehicle Main Body
 
-The vehicle main body is based on Picar-x kit and the building instructions are available via the [link](https://github.com/sunfounder/sf-pdf/raw/master/assembly_file/a0000710-picar-x.pdf) with some vital modifications and crucial restructuring in order to be able to meet the competition requirements:
+
+The vehicle's main body is based on the Picar-x kit. The building instructions are available via the [link](https://github.com/sunfounder/sf-pdf/raw/master/assembly_file/a0000710-picar-x.pdf) with some vital modifications and crucial restructuring in order to be able to meet the competition requirements:
 
 The robot Rear Wheel Drive (RWD) is the most important factor in any car whether it is a real car or a self-driving car. The Picar-x kit had two DC motors each one is responsible for one wheel. However, we are required to use one DC so we crafted a new design for the RWD. In this design, the transmission of motion is achieved through the implementation of differential gears using LEGO parts. The Importance of Differential Gears lies in that it enables the rear wheels to spin simultaneously at various speeds while preserving power distribution. When the robot is turning or there is a discrepancy in traction between the two wheels, the differential gear's main job is to allow the wheels on the same axle to rotate at different rates. It permits the wheels to spin at different speeds while distributing torque from the DC Motor to them. In order for the rear wheels to be compatible with the Lego differential gears, they were also replaced with Lego wheels. It's crucial to note that we utilized the identical Direct Acting Steering mechanism as the kit described above; but, because of their low friction characteristic, the front wheels had to be replaced due to the fact that the robot needs more force to steer at the right value.
 
